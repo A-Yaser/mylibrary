@@ -16,5 +16,17 @@ namespace mylibrary
         {
             InitializeComponent();
         }
+
+        private void btnBookAdd_Click(object sender, EventArgs e)
+        {
+            Form addbook = new AddBook();
+            addbook.Show();
+        }
+
+        private void btnBookview_Click(object sender, EventArgs e)
+        {
+            Form bookview = new BooksView();
+            bookview.Show();
+        }
     }
 }
